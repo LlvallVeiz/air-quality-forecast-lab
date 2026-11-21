@@ -1,0 +1,4 @@
+# Core library is stdlib-only. These are needed for plots and tests.
+numpy>=1.26
+matplotlib>=3.7
+pytest>=7.0

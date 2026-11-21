@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "air-quality-forecast-lab"
+version = "1.0.0"
+description = "Gaussian plume dispersion (Briggs), US EPA AQI and short-range AQI forecasting for a synthetic city"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "LlvallVeiz"}]
+
+[project.scripts]
+aqflab = "aqflab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
