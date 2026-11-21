@@ -1,0 +1,59 @@
+{
+  "name": "highway_corridor",
+  "title": "Koridor Jalan Tol Sinar (Kota Sinar, synthetic city)",
+  "urban": false,
+  "sources": [
+    {
+      "kind": "line",
+      "name": "Jalan Tol Sinar",
+      "x1": -3000,
+      "y1": 0,
+      "x2": 3000,
+      "y2": 0,
+      "traffic_veh_per_hour": 3500,
+      "fleet_mix": {
+        "petrol": 0.5,
+        "diesel": 0.5
+      },
+      "release_height": 2.0,
+      "segments": 24
+    },
+    {
+      "kind": "point",
+      "name": "Boiler Depot",
+      "x": 0,
+      "y": 800,
+      "stack_height": 25,
+      "diameter": 1.0,
+      "exit_velocity": 10,
+      "exit_temp_c": 140,
+      "ambient_temp_c": 25,
+      "emissions": {
+        "NO2": 4.1999,
+        "CO": 3.5279,
+        "PM2.5": 0.3192,
+        "SO2": 0.0252,
+        "PM10": 0.3192
+      }
+    }
+  ],
+  "receptor": {
+    "x": 500,
+    "y": 300
+  },
+  "background": {
+    "PM2.5": 10.0,
+    "PM10": 22.0,
+    "NO2": 12.0,
+    "SO2": 4.0,
+    "CO": 350.0
+  },
+  "grid": {
+    "x_min": -1000,
+    "x_max": 3500,
+    "y_min": -1500,
+    "y_max": 1500,
+    "step": 250
+  },
+  "notes": "Highway + depot boiler. Road factors are Euro 6 type-approval limits (screening only). All locations are fictional."
+}

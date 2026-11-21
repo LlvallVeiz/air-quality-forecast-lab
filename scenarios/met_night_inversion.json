@@ -1,0 +1,197 @@
+{
+  "name": "night_inversion",
+  "hours": [
+    {
+      "hour": 0.0,
+      "wind_speed_10m": 1.5,
+      "wind_direction_deg": 90.0,
+      "stability": "F",
+      "temp_c": 23.0,
+      "mixing_height_m": 200.0
+    },
+    {
+      "hour": 1.0,
+      "wind_speed_10m": 1.5,
+      "wind_direction_deg": 90.0,
+      "stability": "F",
+      "temp_c": 23.0,
+      "mixing_height_m": 200.0
+    },
+    {
+      "hour": 2.0,
+      "wind_speed_10m": 1.5,
+      "wind_direction_deg": 90.0,
+      "stability": "F",
+      "temp_c": 23.0,
+      "mixing_height_m": 200.0
+    },
+    {
+      "hour": 3.0,
+      "wind_speed_10m": 1.5,
+      "wind_direction_deg": 90.0,
+      "stability": "F",
+      "temp_c": 23.0,
+      "mixing_height_m": 200.0
+    },
+    {
+      "hour": 4.0,
+      "wind_speed_10m": 1.5,
+      "wind_direction_deg": 90.0,
+      "stability": "F",
+      "temp_c": 23.0,
+      "mixing_height_m": 200.0
+    },
+    {
+      "hour": 5.0,
+      "wind_speed_10m": 1.5,
+      "wind_direction_deg": 90.0,
+      "stability": "F",
+      "temp_c": 23.0,
+      "mixing_height_m": 200.0
+    },
+    {
+      "hour": 6.0,
+      "wind_speed_10m": 1.5,
+      "wind_direction_deg": 90.0,
+      "stability": "F",
+      "temp_c": 23.0,
+      "mixing_height_m": 200.0
+    },
+    {
+      "hour": 7.0,
+      "wind_speed_10m": 1.6666666666666667,
+      "wind_direction_deg": 90.0,
+      "stability": "F",
+      "temp_c": 23.666666666666668,
+      "mixing_height_m": 233.33333333333331
+    },
+    {
+      "hour": 8.0,
+      "wind_speed_10m": 1.8333333333333333,
+      "wind_direction_deg": 90.0,
+      "stability": "E",
+      "temp_c": 24.333333333333332,
+      "mixing_height_m": 266.66666666666663
+    },
+    {
+      "hour": 9.0,
+      "wind_speed_10m": 2.0,
+      "wind_direction_deg": 90.0,
+      "stability": "E",
+      "temp_c": 25.0,
+      "mixing_height_m": 300.0
+    },
+    {
+      "hour": 10.0,
+      "wind_speed_10m": 2.3333333333333335,
+      "wind_direction_deg": 90.0,
+      "stability": "E",
+      "temp_c": 26.333333333333332,
+      "mixing_height_m": 466.66666666666663
+    },
+    {
+      "hour": 11.0,
+      "wind_speed_10m": 2.6666666666666665,
+      "wind_direction_deg": 90.0,
+      "stability": "D",
+      "temp_c": 27.666666666666668,
+      "mixing_height_m": 633.3333333333333
+    },
+    {
+      "hour": 12.0,
+      "wind_speed_10m": 3.0,
+      "wind_direction_deg": 90.0,
+      "stability": "D",
+      "temp_c": 29.0,
+      "mixing_height_m": 800.0
+    },
+    {
+      "hour": 13.0,
+      "wind_speed_10m": 3.0,
+      "wind_direction_deg": 90.0,
+      "stability": "D",
+      "temp_c": 29.333333333333332,
+      "mixing_height_m": 866.6666666666666
+    },
+    {
+      "hour": 14.0,
+      "wind_speed_10m": 3.0,
+      "wind_direction_deg": 90.0,
+      "stability": "C",
+      "temp_c": 29.666666666666668,
+      "mixing_height_m": 933.3333333333333
+    },
+    {
+      "hour": 15.0,
+      "wind_speed_10m": 3.0,
+      "wind_direction_deg": 90.0,
+      "stability": "C",
+      "temp_c": 30.0,
+      "mixing_height_m": 1000.0
+    },
+    {
+      "hour": 16.0,
+      "wind_speed_10m": 2.6666666666666665,
+      "wind_direction_deg": 90.0,
+      "stability": "C",
+      "temp_c": 29.0,
+      "mixing_height_m": 833.3333333333334
+    },
+    {
+      "hour": 17.0,
+      "wind_speed_10m": 2.3333333333333335,
+      "wind_direction_deg": 90.0,
+      "stability": "D",
+      "temp_c": 28.0,
+      "mixing_height_m": 666.6666666666667
+    },
+    {
+      "hour": 18.0,
+      "wind_speed_10m": 2.0,
+      "wind_direction_deg": 90.0,
+      "stability": "D",
+      "temp_c": 27.0,
+      "mixing_height_m": 500.0
+    },
+    {
+      "hour": 19.0,
+      "wind_speed_10m": 1.8333333333333333,
+      "wind_direction_deg": 90.0,
+      "stability": "D",
+      "temp_c": 26.0,
+      "mixing_height_m": 400.0
+    },
+    {
+      "hour": 20.0,
+      "wind_speed_10m": 1.6666666666666667,
+      "wind_direction_deg": 90.0,
+      "stability": "F",
+      "temp_c": 25.0,
+      "mixing_height_m": 300.0
+    },
+    {
+      "hour": 21.0,
+      "wind_speed_10m": 1.5,
+      "wind_direction_deg": 90.0,
+      "stability": "F",
+      "temp_c": 24.0,
+      "mixing_height_m": 200.0
+    },
+    {
+      "hour": 22.0,
+      "wind_speed_10m": 1.5,
+      "wind_direction_deg": 90.0,
+      "stability": "F",
+      "temp_c": 23.666666666666668,
+      "mixing_height_m": 200.0
+    },
+    {
+      "hour": 23.0,
+      "wind_speed_10m": 1.5,
+      "wind_direction_deg": 90.0,
+      "stability": "F",
+      "temp_c": 23.333333333333332,
+      "mixing_height_m": 200.0
+    }
+  ]
+}

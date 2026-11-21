@@ -1,0 +1,92 @@
+{
+  "name": "industrial_park",
+  "title": "Kawasan Industri Sinar + Jalan Raya Merdeka (Kota Sinar, synthetic city)",
+  "urban": false,
+  "sources": [
+    {
+      "kind": "point",
+      "name": "Boiler Utara",
+      "x": 0,
+      "y": 0,
+      "stack_height": 45,
+      "diameter": 2.0,
+      "exit_velocity": 18,
+      "exit_temp_c": 180,
+      "ambient_temp_c": 25,
+      "emissions": {
+        "NO2": 15.7497,
+        "CO": 13.2298,
+        "PM2.5": 1.197,
+        "SO2": 0.0945,
+        "PM10": 1.197
+      }
+    },
+    {
+      "kind": "point",
+      "name": "Boiler Selatan",
+      "x": 300,
+      "y": -200,
+      "stack_height": 30,
+      "diameter": 1.2,
+      "exit_velocity": 12,
+      "exit_temp_c": 150,
+      "ambient_temp_c": 25,
+      "emissions": {
+        "NO2": 6.2999,
+        "CO": 5.2919,
+        "PM2.5": 0.4788,
+        "SO2": 0.0378,
+        "PM10": 0.4788
+      }
+    },
+    {
+      "kind": "area",
+      "name": "Yard Logistik",
+      "x": 800,
+      "y": 400,
+      "width": 400,
+      "length": 300,
+      "release_height": 5,
+      "emissions": {
+        "PM10": 0.5,
+        "PM2.5": 0.2
+      },
+      "cells_x": 5,
+      "cells_y": 5
+    },
+    {
+      "kind": "line",
+      "name": "Jalan Raya Merdeka",
+      "x1": -2000,
+      "y1": -1200,
+      "x2": 3000,
+      "y2": -1200,
+      "traffic_veh_per_hour": 1800,
+      "fleet_mix": {
+        "petrol": 0.6,
+        "diesel": 0.4
+      },
+      "release_height": 2.0,
+      "segments": 20
+    }
+  ],
+  "receptor": {
+    "x": 1500,
+    "y": 0
+  },
+  "background": {
+    "PM2.5": 12.0,
+    "PM10": 25.0,
+    "NO2": 15.0,
+    "SO2": 5.0,
+    "CO": 400.0
+  },
+  "grid": {
+    "x_min": -500,
+    "x_max": 4000,
+    "y_min": -2000,
+    "y_max": 2000,
+    "step": 250
+  },
+  "notes": "Emissions of both boilers from US EPA AP-42 Table 1.4-1 (natural gas). Yard dust and road factors are labelled scenario assumptions; road factors are Euro 6 type-approval limits. All locations are fictional."
+}
